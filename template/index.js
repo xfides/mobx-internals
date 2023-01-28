@@ -22,5 +22,6 @@ class Todo {
 }
 
 const myTodo = new Todo('one');
-
 console.dir(myTodo);
+
+myTodo.toggle();
